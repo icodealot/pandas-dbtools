@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pandas-dbtools"
+version = "0.0.1"
+description = "Convert SQL results into pandas DataFrames using OCI"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = [
+    "oci",
+    "pandas"
+]
+
+[project.urls]
+Homepage = "https://github.com/icodealot/pandas-dbtools"
+Repository = "https://github.com/icodealot/pandas-dbtools"
+Issues = "https://github.com/icodealot/pandas-dbtools/issues"
+
+[tool.setuptools]
+packages = ["pandas_dbtools"]
