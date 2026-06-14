@@ -99,11 +99,6 @@ y = df["class_label"]
 Given the above, users of Database Tools connections and the new Database Tools Runtime service will
 be able to extract relevant samples from a database and work with them as DataFrames in a notebook.
 
-Here is an example of pandas-dbtools running in a Jupyter notebook runtime locally.
-
-TODO: capture screenshot
-
-
 ## Install from Github
 
 First, you will need to import the library into your Python REPL or notebook. Since this package
